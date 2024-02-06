@@ -1,0 +1,9 @@
+.topPage, .confirmPage {
+  margin: 100px 0;
+}
+
+.topPage .btn-primary, .topPage .btn-info, .confirmPage .btn-primary, .confirmPage .btn-info {
+  width: 200px;
+  padding: 10px;
+}
+/*# sourceMappingURL=inquiries.css.map */
