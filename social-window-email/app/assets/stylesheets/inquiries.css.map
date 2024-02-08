@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AAAA,QAAQ,EAAE,YAAY,CAAC;EACrB,MAAM,EAAE,OAAO;CAKhB;;AAND,AAEE,QAFM,CAEN,YAAY,EAFd,QAAQ,CAEQ,SAAS,EAFf,YAAY,CAEpB,YAAY,EAFJ,YAAY,CAEN,SAAS,CAAC;EACtB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;CACd",
-    "sources": [
-        "inquiries.scss"
-    ],
-    "names": [],
-    "file": "inquiries.css"
-}

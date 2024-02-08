@@ -1,9 +1,77 @@
-.topPage, .confirmPage {
-  margin: 100px 0;
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Serif+JP:wght@200&family=Zen+Maru+Gothic:wght@300&display=swap');
+
+.topPage, .confirmPage{
+  margin: 100px;
+  font-family: 'Zen Maru Gothic', serif;
 }
 
-.topPage .btn-primary, .topPage .btn-info, .confirmPage .btn-primary, .confirmPage .btn-info {
+.topPage .btn-primary, 
+.topPage .btn-info,
+.confirmPage .btn-primary{
+  font-size: medium;
+  text-align: center;
+  display: inline-block;
   width: 200px;
   padding: 10px;
+  margin:0 auto;
+  background-color: dodgerblue;
+  color: white;
+  border:white 2px solid;
+  border-radius: 5px;
+  text-decoration: none;
 }
-/*# sourceMappingURL=inquiries.css.map */
+
+.confirmPage .btn-info {
+  font-size: medium;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  margin:0 auto;
+  background-color: rgb(24, 179, 158);
+  color: white;
+  border:white 2px solid;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+.text-center .btn-primary:hover,
+.text-center .btn-info:hover{
+  cursor: pointer;
+  transition-duration: 0.3s;
+  color:dodgerblue;
+  background-color: white;
+  border: dodgerblue 2px solid;
+}
+
+.confirmPage .btn-info:hover{
+  cursor: pointer;
+  transition-duration: 0.3s;
+  color:rgb(24, 179, 158);
+  background-color: white;
+  border: rgb(24, 179, 158) 2px solid;
+}
+
+.form-control{
+  width: 100%;
+  padding: 10px;
+  border: rgb(185, 185, 185) 0.5px solid;
+  resize: vertical;
+}
+
+.confirmPage_title{
+  margin-bottom: 50px;
+}
+.confirmPage .confirmForm_item {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 40px;
+}
+h3 {
+        font-size: 19px;
+        font-weight: bold;
+      }
