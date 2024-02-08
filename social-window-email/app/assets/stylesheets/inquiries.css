@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Serif+JP:wght@200&family=Zen+Maru+Gothic:wght@300&display=swap');
 
-.topPage, .confirmPage{
+.topPage, .confirmPage, .thanksPage{
   margin: 100px;
   font-family: 'Zen Maru Gothic', serif;
 }
 
 .topPage .btn-primary, 
 .topPage .btn-info,
-.confirmPage .btn-primary{
+.confirmPage .btn-primary,
+.thanksPage .btn-primary{
   font-size: medium;
   text-align: center;
   display: inline-block;
