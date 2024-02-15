@@ -1,0 +1,13 @@
+<div class="main posts-index">
+    <div class="container">
+        <% @posts.each do |post| %>
+            <div class="posts-index-item">
+                <% if post[:tikutiku] == 1 %>
+                    <%= post[:words] %>はちくちく言葉です。
+                <% else %>
+                    <%= post[:words] %>はちくちく言葉ではありません。
+                <% end %>
+            </div>
+        <% end %>
+    </div>
+</div>
